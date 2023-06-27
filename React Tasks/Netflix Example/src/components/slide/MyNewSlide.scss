@@ -1,0 +1,43 @@
+$rubikFont: "Rubik", sans-serif;
+
+.MyNewSlide {
+  width: 90%;
+  position: relative;
+  margin: 80px auto;
+  padding: 10px;
+  z-index: 9999;
+
+  img {
+    width: 100%;
+    padding: 10px;
+  }
+
+  h2 {
+    font-family: $rubikFont;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+}
+.filmname {
+  margin: 15px;
+  letter-spacing: 1px;
+  font-style: italic;
+
+  h3 {
+    line-height: 2;
+    font-family: $rubikFont;
+  }
+}
+
+.description {
+  margin-top: 15px;
+  font-family: $rubikFont;
+  margin: 15px 10px;
+  padding: 10px;
+  text-align: justify;
+}
+hr {
+  margin: 15px;
+  border: 1px solid grey;
+}

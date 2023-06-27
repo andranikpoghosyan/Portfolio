@@ -1,0 +1,20 @@
+.box {
+  width: 250px;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 12px;
+  height: 200px;
+  margin: 15px;
+  position: relative;
+
+  button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}

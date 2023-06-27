@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+$rubikFont: "Rubik", sans-serif;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  align-items: center;
+  width: 80%;
+  margin: 0px auto;
+  .imagediv {
+    img {
+      width: 160px;
+    }
+  }
+  .inputsdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    width: 300px;
+
+    .selectdiv {
+      select {
+        width: 120px;
+        height: 32px;
+        padding: 5px 10px;
+        font-size: 1rem;
+        text-align: center;
+        background-color: transparent;
+        color: white;
+        font-family: $rubikFont;
+        border-radius: 0.25rem;
+        font-weight: 600;
+
+        option {
+          line-height: 2;
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .logindiv {
+      input {
+        background-color: #e50914;
+        width: 77px;
+        height: 32px;
+        padding: 0.25rem 1rem;
+        font-family: $rubikFont;
+        color: white;
+        border: none;
+        border-radius: 0.25rem;
+        font-weight: 600;
+        font-size: 0.875rem;
+        line-height: 1;
+        cursor: pointer;
+
+        &:active {
+          scale: 0.97;
+        }
+      }
+    }
+  }
+}

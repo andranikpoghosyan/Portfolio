@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.App ul {
+  list-style: none;
+  margin: 20px auto;
+}
+li {
+  /* width: 40%; */
+  border: 1px solid black;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+ul > li button {
+  float: right;
+  width: 25px;
+  height: 25px;
+}
+
+ul > li.done {
+  text-decoration: line-through;
+  background-color: green;
+}
+button {
+  padding: 8px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 120px;
+  height: 50px;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  transition: 0.4s;
+  scale: 1.1;
+}
+button:active {
+  scale: 0.96;
+}
+
+.info {
+  color: grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info > p {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+}

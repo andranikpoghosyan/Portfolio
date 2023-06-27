@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+
+}
+
+main {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+form {
+    text-align: center;
+}
+
+.leftside {
+    width: 450px;
+    height: max-content;
+    padding: 20px;
+margin-top: 75px;
+}
+
+.rightside {
+
+    width: 60%;
+    height: bottom;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.imgclass {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.classh2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+input {
+    margin: 8px;
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 9px;
+    transition: width 0.5s;
+}
+
+.submitinput {
+    width: 80%;
+    height: 50px;
+    padding: 5px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+hr {
+    width: 80%;
+    margin: 10px auto;
+}
+
+input.active {
+    width: 80%;
+    transition: width 0.5s;
+    border: 1px solid grey;
+}
+
+i {
+    color: green(218, 27, 27);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+p.clasp {
+    font-size: 11px;
+    /* border: 1px solid black; */
+    margin: 0;
+}
+
+p.hidden {
+    visibility: visible;
+}
+
+p.wrong {
+    color: red;
+}
+
+p.error {
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+    visibility: hidden;
+}
+
+p.error.show {
+    visibility: visible;
+    background-color: green;
+}
+
+p.error.del {
+    visibility: visible;
+    background-color: red;
+    color: white;
+    width: 200px;
+}

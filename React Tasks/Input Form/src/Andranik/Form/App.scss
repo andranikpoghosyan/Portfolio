@@ -1,0 +1,67 @@
+.App {
+  width: 90%;
+  margin: 40px auto;
+  border: 2px solid black;
+  padding: 1rem;
+
+  h1 {
+    color: rgb(79, 78, 78);
+    font-weight: 700;
+  }
+
+  p {
+    margin: 20px auto;
+    color: rgb(84, 77, 77, 0.7);
+    font-weight: 500;
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .firstform {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 15px;
+    margin-bottom: 20px;
+    input,
+    select {
+      padding: 10px;
+    }
+    select {
+      color: grey;
+    }
+  }
+
+  input[name="message"] {
+    grid-column: 1 / 3;
+    height: 200px;
+
+    &::placeholder {
+      position: absolute;
+    }
+  }
+
+  input[name="submit"] {
+    background-color: rgba(227, 39, 52, 0.844);
+    color: white;
+    border: none;
+    width: 70px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  tr {
+    border: 1px solid black;
+  }
+  td {
+    border: 1px solid black;
+  }
+}

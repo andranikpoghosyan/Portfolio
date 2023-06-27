@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 375px;
+  height: 815px;
+  margin: 0px auto;
+  position: absolute;
+  background-color: #f2f2f2;
+}
+
+main {
+  padding: 0px 20px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 335px;
+  top: 12px;
+  text-align: center;
+  padding: 35px 0;
+}
+.header .headermov {
+  margin: 16px;
+}
+.header .burger {
+  display: inline-block;
+  vertical-align: top;
+  height: 24px;
+  width: 25px;
+  cursor: pointer;
+}
+.header .burger:active {
+  scale: 0.9;
+}
+.header .logotype {
+  display: inline-block;
+  height: 24px;
+  width: 165px;
+  cursor: pointer;
+}
+.header .logotype img {
+  width: 163px;
+}
+
+.search {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 24px;
+  height: 24px;
+  font-size: 1.5rem;
+  width: 16px;
+  cursor: pointer;
+}
+.search i {
+  font-size: 1rem;
+}
+
+.mbody1 .firstpost {
+  width: 335px;
+  height: 459px;
+}
+.mbody1 .firstpost .firstimg {
+  width: 100%;
+  height: 230px;
+}
+.mbody1 .lifestyle2 {
+  margin-top: 10px;
+}
+.mbody1 .lifestyle2 p {
+  font-family: "Roboto", sans-serif;
+  color: #eb0028;
+  font-weight: 700;
+  font-size: 0.8125rem;
+}
+.mbody1 .news {
+  margin-top: 10px;
+}
+.mbody1 .news .firstnews {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 32px;
+}
+.mbody1 .news .about1 {
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+.mbody1 .news i {
+  color: #d7d7d7;
+  font-size: 0.1875rem;
+  vertical-align: middle;
+  line-height: 0.75rem;
+}
+.mbody1 .news span {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.mbody1 .news span i {
+  color: #d7d7d7;
+  font-size: 0.1875rem;
+  vertical-align: middle;
+  line-height: 0.75rem;
+}
+.mbody1 .news p {
+  font-weight: 400;
+  color: #9b9b9b;
+  font-size: 0.875rem;
+  display: inline-block;
+  line-height: 20px;
+  margin-top: 5px;
+}
+
+.mbody2 .secondpost {
+  margin-top: 16px;
+  width: 335px;
+}
+.mbody2 .secondpost .secondimg {
+  width: 100%;
+  height: 230px;
+}
+
+.burger {
+  font-size: 1.4375rem;
+  display: flex;
+  justify-content: flex-start;
+  vertical-align: top;
+}
+.burger i {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#mainav ul ul {
+  visibility: visible;
+  z-index: 999;
+  position: relative;
+  background-color: white;
+}
+
+.mainav {
+  width: 320px;
+  height: 803px;
+  padding: 36px 20px;
+  background-color: white;
+  opacity: 1;
+  padding: 0px 20px;
+  margin: 60px 0;
+}
+
+#mainav > ul > li > a > img {
+  vertical-align: middle;
+  margin-top: 32px;
+  line-height: 25px;
+  border: 1px solid #e9e9e9;
+}
+
+#mainav > ul > li > i {
+  margin-left: 60px;
+  margin-top: 32px;
+  font-size: 1.0625rem;
+  vertical-align: middle;
+  line-height: 25px;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+#mainav > ul > li > i:active {
+  scale: 0.9;
+}
+
+hr {
+  margin-top: 25px;
+}
+
+#mainav > ul > li > ul > li > a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+}
+
+#mainav > ul > li > ul {
+  margin-top: 33px;
+}
+
+#mainav > ul > li > ul > li:first-child-only {
+  margin: 30px 0;
+  padding: 19px 0;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+#mainav > ul > li > ul > li {
+  padding: 16px 0;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+#mainav > ul > li > ul > li > a > i {
+  font-size: 0.625rem;
+  line-height: 1rem;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  position: relative;
+  top: 0;
+  transition: 0.3s;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  top: -60px;
+  position: relative;
+  border-right: 1px solid #e9e9e9;
+  transition: 0.3s;
+}/*# sourceMappingURL=style.css.map */

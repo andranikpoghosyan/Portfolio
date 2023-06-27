@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.h1class1 {
+    text-align: center;
+    letter-spacing: 15px;
+    padding: 150px 0px 50px 0;
+    color: rgb(193, 188, 180);
+    font-family: cursive;
+    font-weight: 200;
+}
+
+.h1class2 {
+    text-align: center;
+    letter-spacing: 15px;
+    margin-bottom: 50px;
+    color: rgb(193, 188, 180);
+    font-family: cursive;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(193, 188, 180);
+    font-weight: 100;
+    line-height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.clickbar {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clicks {
+    border: 0.5px solid grey;
+}
+
+section {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 180px;
+}
+
+nav {
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.5em;
+}
+
+nav:hover {
+    background-color: rgb(222, 220, 220);
+}
+
+a:hover {
+    color: rgb(87, 87, 87);
+}
+
+.images {
+    width: 100%;
+
+}
+
+.leftimg {
+    width: 48%;
+    position: relative;
+    left: 15px;
+
+}
+
+.rightimg {
+    width: 48%;
+    position: absolute;
+    top: 560px;
+    right: 15px;
+}
+
+.aazz {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.scrollbutton {
+    color: white;
+}
+
+.button {
+    width: 50px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    position: fixed;
+    bottom: 150px;
+    opacity: 80%;
+}
+
+
+.footerclass {
+    text-align: center;
+    padding: 100px;
+    border: 1px solid white;
+    letter-spacing: 20px;
+
+}
+
+.ppp {
+    width: 30px;
+    border-radius: 30px;
+}
+
+a:hover {
+    opacity: 50%;
+}
+
+
+
+.ppp1 {
+    color: beige;
+    letter-spacing: 5px;
+    font-family: cursive;
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.769);
+}
+
+.ppp2 {
+    padding-top: 30px;
+    color: beige;
+    letter-spacing: 2px;
+    font-family: cursive;
+    text-align: right;
+    font-weight: 100;
+}
+
+.lastdiv {
+    text-align: right;
+    color: beige;
+    letter-spacing: 2px;
+    font-family: cursive;
+    font-size: 13px;
+}

@@ -1,0 +1,864 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.table1 {
+    margin: 0px 20px;
+    min-width: 700px;
+    max-width: auto;
+}
+
+.table2 {
+    margin: 0px 20px;
+    min-width: 700px;
+    max-width: auto;
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.firsttable {
+
+    color: white;
+    margin: 15px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.secondtable {
+    border: 3px solid none;
+    margin: 30px auto;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.tdmenu1 {
+    letter-spacing: 2px;
+    line-height: 26px;
+    text-align: left;
+    vertical-align: bottom;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.tdmenu2 {
+    letter-spacing: 2px;
+    line-height: 26px;
+    text-align: left;
+    vertical-align: bottom;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.tdmenu3 {
+    letter-spacing: 2px;
+    line-height: 26px;
+    text-align: left;
+    vertical-align: top;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.tdmenu4 {
+    letter-spacing: 2px;
+    line-height: 26px;
+    text-align: left;
+    vertical-align: top;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+caption {
+    font-size: 46px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    
+}
+
+td {
+
+    border: 3px solid none;
+    width: 80px;
+    height: 100px;
+    text-align: center;
+    line-height: 14px;
+    color: white;
+}
+
+th {
+
+    border: 3px solid none;
+    width: 80px;
+    height: 100px;
+    text-align: center;
+    line-height: 14px;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+th:hover {
+    cursor: pointer;
+}
+
+td:active {
+    scale: 0.95;
+    color: #66cbfa;
+}
+
+th:active {
+    scale: 0.95;
+    color: #66cbfa;
+}
+
+
+.label {
+    font-size: 25px;
+    text-align: right;
+    padding-right: 2px;
+}
+
+.labeltop {
+
+    font-size: 25px;
+    text-align: center;
+    vertical-align: bottom;
+    padding-bottom: 3px;
+}
+
+.thirdtable {
+    color: white;
+    margin: 0 auto;
+}
+
+.hyd1 {
+    
+    font-size: 15px;
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    text-align: center;
+    line-height: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+
+
+.calc1{
+    font-size: 15px;
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    line-height: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.magnes1{
+    font-size: 15px;
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    line-height: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.zircon1{
+    font-size: 15px;
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    line-height: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gold1{
+    font-size: 15px;
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    line-height: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.neo1{
+    font-size: 15px;
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    line-height: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.zink1{
+    font-size: 15px;
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    line-height: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.tellurium1{
+    font-size: 15px;
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    line-height: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+
+hr{
+width: 75%;
+margin: auto;
+}
+
+a{
+    text-decoration:none;
+    color: rgb(15, 28, 170);
+}
+
+.hydrogen {
+    background-color: #00B6BD;
+    animation-name: blink;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {color: rgb(15, 28, 170);}
+    50% {color: transparent;}
+    100%{color: rgb(15, 28, 170);}
+}
+.tellurium{
+    background-color: #00B6BD;
+    animation-name: blink;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {color: rgb(15, 28, 170);}
+    50% {color: transparent;}
+    100%{color: rgb(15, 28, 170);}
+}
+.silicon1{
+    font-size: 15px;
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    line-height: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.silicon{
+    background-color: #00B6BD;
+    animation-name: blink;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {color: rgb(15, 28, 170);}
+    50% {color: transparent;}
+    100%{color: rgb(15, 28, 170);}
+}
+
+.zink {
+    background-color: #00B6BD;
+    animation-name: blink;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {color: rgb(15, 28, 170);}
+    50% {color: transparent;}
+    100%{color: rgb(15, 28, 170);}
+}
+
+
+.alkalimetals {
+    background-color: #1A67C9;
+}
+
+.alkaliearthmetals {
+    background-color: #A1669F;
+}
+
+.transitionmetals {
+    background-color: #F53951;
+}
+
+.posttransitionmetals {
+    background-color: #F46D4A;
+}
+
+.metalloids {
+    background-color: #F5B65A;
+}
+
+.lanthanides {
+    background-color: #004E73;
+}
+
+.actinides {
+    background-color: #552F55;
+}
+
+.nonmetals {
+    background-color: #00B6BD;
+}
+
+.halogens {
+    background-color: #59D06D;
+}
+
+.noblegases {
+    background-color: #339091;
+}
+
+.lithium {
+    background-color: #1A67C9;
+}
+
+.beryllium {
+    background-color: #A1669F;
+}
+
+.helium {
+    background-color: #339091;
+}
+
+.boron {
+    background-color: #F5B65A;
+}
+
+.carbon {
+    background-color: #00B6BD;
+}
+
+.nitrogen {
+    background-color: #00B6BD;
+}
+
+.oxygen {
+    background-color: #00B6BD;
+}
+
+.fluorine {
+    background-color: #59D06D;
+}
+
+.neon {
+    background-color: #339091;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes blink {
+        0% {color: rgb(15, 28, 170);}
+        50% {color: transparent;}
+        100%{color: rgb(15, 28, 170);}
+    }
+
+
+.sodium {
+    background-color: #1A67C9;
+}
+
+.magnesium {
+    background-color: #A1669F;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes blink {
+        0% {color: rgb(15, 28, 170);}
+        50% {color: transparent;}
+        100%{color: rgb(15, 28, 170);}
+    }
+
+
+.aluminium {
+    background-color: #F46D4A;
+}
+
+.silicon {
+    background-color: #F5B65A;
+}
+
+.phosphorus {
+    background-color: #00B6BD;
+}
+
+.sulfur {
+    background-color: #00B6BD;
+}
+
+.chlorine {
+    background-color: #59D06D;
+}
+
+.argon {
+    background-color: #339091;
+}
+
+.potassium {
+    background-color: #1A67C9;
+}
+
+.calcium {
+    background-color: #A1669F;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes blink {
+        0% {color: rgb(15, 28, 170);}
+        50% {color: transparent;}
+        100%{color: rgb(15, 28, 170);}
+    }
+
+
+.scandium {
+    background-color: #F53951;
+}
+
+.titanium {
+    background-color: #F53951;
+}
+
+.vanadium {
+    background-color: #F53951;
+}
+
+.chromium {
+    background-color: #F53951;
+}
+
+.manganese {
+    background-color: #F53951;
+}
+
+.iron {
+    background-color: #F53951;
+}
+
+.cobalt {
+    background-color: #F53951;
+}
+
+.nickel {
+    background-color: #F53951;
+}
+
+.copper {
+    background-color: #F53951;
+}
+
+.zink {
+    background-color: #F53951;
+}
+
+.gallium {
+    background-color: #F46D4A;
+}
+
+.germanium {
+    background-color: #F5B65A;
+}
+
+.arsenic {
+    background-color: #F5B65A;
+}
+
+.selenium {
+    background-color: #00B6BD;
+}
+
+.bromine {
+    background-color: #59D06D;
+}
+
+.krypton {
+    background-color: #339091;
+}
+
+.rubidium {
+    background-color: #1A67C9;
+}
+
+.strontium {
+    background-color: #A1669F;
+}
+
+.yttrium {
+    background-color: #F53951;
+}
+
+.zirconium {
+    background-color: #F53951;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes blink {
+        0% {color: rgb(15, 28, 170);}
+        50% {color: transparent;}
+        100%{color: rgb(15, 28, 170);}
+    }
+
+
+.niobium {
+    background-color: #F53951;
+}
+
+.molybdenum {
+    background-color: #F53951;
+}
+
+.technetium {
+    background-color: #F53951;
+}
+
+.ruthenium {
+    background-color: #F53951;
+}
+
+.rhodium {
+    background-color: #F53951;
+}
+
+.palladium {
+    background-color: #F53951;
+}
+
+.silver {
+    background-color: #F53951;
+}
+
+.cadmium {
+    background-color: #F53951;
+}
+
+.indium {
+    background-color: #F46D4A;
+}
+
+.tin {
+    background-color: #F46D4A;
+}
+
+.antimony {
+    background-color: #F5B65A;
+}
+
+.tellurium {
+    background-color: #F5B65A;
+}
+
+.iodine {
+    background-color: #59D06D;
+}
+
+.xenon {
+    background-color: #339091;
+}
+
+.caesium {
+    background-color: #1A67C9;
+}
+
+.barium {
+    background-color: #A1669F;
+}
+
+.something1 {
+    background-color: #004E73;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.hafnium {
+    background-color: #F53951;
+}
+
+.tantalum {
+    background-color: #F53951;
+}
+
+.tungsten {
+    background-color: #F53951;
+}
+
+.rhenium {
+    background-color: #F53951;
+}
+
+.osmium {
+    background-color: #F53951;
+}
+
+.iridium {
+    background-color: #F53951;
+}
+
+.platinum {
+    background-color: #F53951;
+}
+
+.gold {
+    background-color: #F53951;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    }
+   
+    @keyframes blink {
+        0% {color: rgb(15, 28, 170);}
+        50% {color: transparent;}
+        100%{color: rgb(15, 28, 170);}
+    }
+
+
+.mercury {
+    background-color: #F53951;
+}
+
+.thallium {
+    background-color: #F46D4A;
+}
+
+.lead {
+    background-color: #F46D4A;
+}
+
+.bismuth {
+    background-color: #F46D4A;
+}
+
+.polonium {
+    background-color: #F5B65A;
+}
+
+.astatine {
+    background-color: #59D06D;
+}
+
+.radon {
+    background-color: #339091;
+}
+
+.francium {
+    background-color: #1A67C9;
+}
+
+.radium {
+    background-color: #A1669F;
+}
+
+.something2 {
+    background-color: #552F55;
+    font-size: 40px;
+}
+
+.rutherfordium {
+    background-color: #F53951;
+}
+
+.dubnium {
+    background-color: #F53951;
+}
+
+.bohrium {
+    background-color: #F53951;
+}
+
+.seaborgium {
+    background-color: #F53951;
+}
+
+.hassium {
+    background-color: #F53951;
+}
+
+.meitnerium {
+    background-color: #F53951;
+}
+
+.darmstadtium {
+    background-color: #F53951;
+}
+
+.roentgenium {
+    background-color: #F53951;
+}
+
+.copernicium {
+    background-color: #F53951;
+}
+
+.nihonium {
+    background-color: #849997;
+}
+
+.flerovium {
+    background-color: #849997;
+}
+
+.moscovium {
+    background-color: #849997;
+}
+
+.livermorium {
+    background-color: #849997;
+}
+
+.tennessine {
+    background-color: #849997;
+}
+
+.oganesson {
+    background-color: #849997;
+}
+
+.lanthanum {
+    background-color: #004E73;
+}
+
+.cerium {
+    background-color: #004E73;
+}
+
+.praseodymium {
+    background-color: #004E73;
+}
+
+.neodymium {
+    background-color: #004E73;
+}
+
+.promethium {
+    background-color: #004E73;
+}
+
+.samarium {
+    background-color: #004E73;
+}
+
+.europium {
+    background-color: #004E73;
+}
+
+.gadolinium {
+    background-color: #004E73;
+}
+
+.terbium {
+    background-color: #004E73;
+}
+
+.dysprosium {
+    background-color: #004E73;
+}
+
+.holmium {
+    background-color: #004E73;
+}
+
+.erbium {
+    background-color: #004E73;
+}
+
+.thulium {
+    background-color: #004E73;
+}
+
+.ytterbium {
+    background-color: #004E73;
+}
+
+.lutetium {
+    background-color: #004E73;
+}
+
+.actinium {
+    background-color: #552F55;
+}
+
+.thorium {
+    background-color: #552F55;
+}
+
+.protactinium {
+    background-color: #552F55;
+}
+
+.uranium {
+    background-color: #552F55;
+}
+
+.neptunium {
+    background-color: #552F55;
+}
+
+.plutonium {
+    background-color: #552F55;
+}
+
+.americium {
+    background-color: #552F55;
+}
+
+.curium {
+    background-color: #552F55;
+}
+
+.berkelium {
+    background-color: #552F55;
+}
+
+.californium {
+    background-color: #552F55;
+}
+
+.einsteinium {
+    background-color: #552F55;
+}
+
+.fermium {
+    background-color: #552F55;
+}
+
+.mendelevium {
+    background-color: #552F55;
+}
+
+.nobelium {
+    background-color: #552F55;
+}
+
+.lawrencium {
+    background-color: #552F55;
+}

@@ -1,0 +1,1768 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --iconsize: 20px;
+  --shadowbox: 0px 2px 2px 2px rgb(233, 233, 233);
+  --iconsize5: 50px;
+  --iconsize6: 60px;
+  --greyfontcolor: rgb(120, 120, 120);
+  --fontforcash: "Tomorrow", sans-serif;
+  --fontfortexts: "Plus Jakarta Sans", sans-serif;
+}
+
+main {
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  min-width: 480px;
+}
+main .amenadiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .amenadiv .flex1,
+main .amenadiv .flex2,
+main .amenadiv .flex3,
+main .amenadiv .flex4 {
+  padding: 10px;
+}
+main .amenadiv .flex1 {
+  flex-basis: 70px;
+}
+main .amenadiv .flex2 {
+  flex-basis: 315px;
+  flex-grow: 2;
+}
+main .amenadiv .flex3 {
+  flex-basis: 600px;
+}
+main .amenadiv .flex4 {
+  flex-basis: 420px;
+  flex-grow: 1;
+}
+main .amenadiv .flex1,
+main .amenadiv .flex2 {
+  background-color: rgb(246, 247, 252);
+}
+main .amenadiv .flex1 {
+  width: 70px;
+}
+main .amenadiv .flex1 .c1r1 {
+  text-align: center;
+  align-self: center;
+}
+main .amenadiv .flex1 .c1r1 .aaa1 {
+  width: var(--iconsize5);
+  justify-content: center;
+}
+main .amenadiv .flex1 .c1r1 .aaa1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  border-radius: 50%;
+  border: 0.5px dashed orange;
+}
+main .amenadiv .flex1 .c1r2 .aaa {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 80px;
+  flex-direction: column;
+  gap: 50px;
+}
+main .amenadiv .flex1 .c1r2 .aaa img:nth-of-type(1),
+main .amenadiv .flex1 .c1r2 .aaa img:nth-of-type(2),
+main .amenadiv .flex1 .c1r2 .aaa img:nth-of-type(3),
+main .amenadiv .flex1 .c1r2 .aaa img:nth-of-type(4),
+main .amenadiv .flex1 .c1r2 .aaa img:nth-of-type(5),
+main .amenadiv .flex1 .c1r2 .aaa img:nth-of-type(6) {
+  width: var(--iconsize);
+  align-items: center;
+}
+main .amenadiv .flex1 .c1r2 .aaa img:nth-of-type(7) {
+  width: var(--iconsize5);
+  bottom: 50px;
+  box-shadow: 0px 10px 5px 0px rgba(199, 188, 245, 0.7529411765);
+}
+main .amenadiv .flex1 .c1r2 .aaa2:hover {
+  scale: 1.1;
+}
+main .amenadiv .flex1 .c1r2 .aaa3:hover {
+  scale: 1.1;
+}
+main .amenadiv .flex1 .c1r2 .aaa4:hover {
+  scale: 1.1;
+}
+main .amenadiv .flex1 .c1r2 .aaa5:hover {
+  scale: 1.1;
+}
+main .amenadiv .flex1 .c1r2 .aaa6:hover {
+  scale: 1.1;
+}
+main .amenadiv .flex1 .c1r2 .aaa7:hover {
+  scale: 1.1;
+}
+main .amenadiv .flex1 .c1r2 .aaa8:hover {
+  cursor: pointer;
+  scale: 0.9;
+}
+main .amenadiv .flex1 .c1r2 .aaa2:active {
+  scale: 0.8;
+  box-shadow: var(--shadowbox);
+}
+main .amenadiv .flex1 .c1r2 .aaa3:active {
+  scale: 0.8;
+  box-shadow: var(--shadowbox);
+}
+main .amenadiv .flex1 .c1r2 .aaa4:active {
+  scale: 0.8;
+  box-shadow: var(--shadowbox);
+}
+main .amenadiv .flex1 .c1r2 .aaa5:active {
+  scale: 0.8;
+  box-shadow: var(--shadowbox);
+}
+main .amenadiv .flex1 .c1r2 .aaa6:active {
+  scale: 0.8;
+  box-shadow: var(--shadowbox);
+}
+main .amenadiv .flex1 .c1r2 .aaa7:active {
+  scale: 0.8;
+  box-shadow: var(--shadowbox);
+}
+main .amenadiv .flex1 .c1r2 .aaa8:active {
+  scale: 0.8;
+  box-shadow: var(--shadowbox);
+}
+main .amenadiv .flex2 {
+  width: 315px;
+}
+main .amenadiv .flex2 .c2r1 {
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: left;
+}
+main .amenadiv .flex2 .c2r1 .gridblock {
+  display: grid;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: 70px 20px;
+}
+main .amenadiv .flex2 .c2r1 .gridblock .img1 {
+  width: 70px;
+  border-radius: 50%;
+}
+main .amenadiv .flex2 .c2r1 .gridblock .img1:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+main .amenadiv .flex2 .c2r1 .gridblock .bbb1 {
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  grid-column: 1/-2;
+  grid-row: 1/-1;
+}
+main .amenadiv .flex2 .c2r1 .gridblock .bbb2 {
+  font-family: var(--fontfortexts);
+  letter-spacing: 3px;
+  align-self: center;
+  font-size: 28px;
+  -webkit-animation: andblink ease infinite 4000ms;
+          animation: andblink ease infinite 4000ms;
+}
+main .amenadiv .flex2 .c2r1 .gridblock .bbb2:hover {
+  scale: 1.1;
+  cursor: pointer;
+  text-shadow: 5px 5px 5px #606999;
+}
+@-webkit-keyframes andblink {
+  0% {
+    opacity: 100%;
+  }
+  25% {
+    opacity: 50%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  75% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes andblink {
+  0% {
+    opacity: 100%;
+  }
+  25% {
+    opacity: 50%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  75% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+main .amenadiv .flex2 .c2r1 .bbb3 {
+  align-self: center;
+  letter-spacing: 2px;
+  font-family: var(--fontfortexts);
+  color: rgb(111, 111, 111);
+}
+main .amenadiv .flex2 .c2r1 .bbb3 i {
+  color: green;
+  font-size: 8px;
+  margin-left: 3px;
+  -webkit-animation: blink ease infinite 4000ms;
+          animation: blink ease infinite 4000ms;
+}
+@-webkit-keyframes blink {
+  0% {
+    color: #F6F7FC;
+  }
+  25% {
+    color: green;
+  }
+  50% {
+    color: #F6F7FC;
+  }
+  75% {
+    color: green;
+  }
+  100% {
+    color: #F6F7FC;
+  }
+}
+@keyframes blink {
+  0% {
+    color: #F6F7FC;
+  }
+  25% {
+    color: green;
+  }
+  50% {
+    color: #F6F7FC;
+  }
+  75% {
+    color: green;
+  }
+  100% {
+    color: #F6F7FC;
+  }
+}
+main .amenadiv .flex2 .c2r2 .ccc {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 0.3fr 0.6fr 0.3fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+  font-family: var(--fontfortexts);
+  gap: 50px 0px;
+}
+main .amenadiv .flex2 .c2r2 .ccc .ccc1:hover,
+main .amenadiv .flex2 .c2r2 .ccc .ccc4:hover,
+main .amenadiv .flex2 .c2r2 .ccc .ccc7:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+main .amenadiv .flex2 .c2r2 .ccc .ccc1 img,
+main .amenadiv .flex2 .c2r2 .ccc .ccc4 img,
+main .amenadiv .flex2 .c2r2 .ccc .ccc7 img {
+  width: var(--iconsize5);
+}
+main .amenadiv .flex2 .c2r2 .ccc .ccc2,
+main .amenadiv .flex2 .c2r2 .ccc .ccc5,
+main .amenadiv .flex2 .c2r2 .ccc .ccc8 {
+  color: var(--greyfontcolor);
+  line-height: 50px;
+}
+main .amenadiv .flex2 .c2r2 .ccc .ccc2:hover,
+main .amenadiv .flex2 .c2r2 .ccc .ccc5:hover,
+main .amenadiv .flex2 .c2r2 .ccc .ccc8:hover {
+  scale: 1.1;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px rgb(213, 213, 213);
+}
+main .amenadiv .flex2 .c2r2 .ccc .ccc3,
+main .amenadiv .flex2 .c2r2 .ccc .ccc6,
+main .amenadiv .flex2 .c2r2 .ccc .ccc9 {
+  line-height: 50px;
+}
+main .amenadiv .flex2 .c2r2 .ccc button {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  border: 1px solid rgb(232, 232, 232);
+  background-color: #F8F9FD;
+}
+main .amenadiv .flex2 .c2r2 .ccc button:active {
+  background-color: rgb(199, 199, 199);
+}
+main .amenadiv .flex2 .c2r2 .ccc button:hover {
+  scale: 0.85;
+  cursor: pointer;
+}
+main .amenadiv .flex2 .c2r2 .ddd {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+main .amenadiv .flex2 .c2r2 .ddd span:first-of-type {
+  display: inline-block;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex2 .c2r2 .ddd span:first-of-type h4 {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 100;
+}
+main .amenadiv .flex2 .c2r2 .ddd span:nth-of-type(2) h2 {
+  display: inline-block;
+  margin-right: 0 auto;
+  font-family: var(--fontforcash);
+  font-weight: 500;
+}
+main .amenadiv .flex2 .c2r2 .p1111 {
+  margin-top: 30px;
+  text-align: right;
+  color: var(--greyfontcolor);
+  font-size: 13px;
+  font-family: var(--fontfortexts);
+  letter-spacing: 2px;
+}
+main .amenadiv .flex2 .c2r2 .diagram {
+  display: flex;
+  margin-top: 20px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex2 .c2r2 .main-container {
+  margin-top: 5px;
+  color: var(--greyfontcolor);
+  width: 100%;
+}
+main .amenadiv .flex2 .c2r2 .year-stats {
+  white-space: nowrap;
+  max-height: 170px;
+  overflow: hidden;
+}
+main .amenadiv .flex2 .c2r2 .year-stats:hover {
+  overflow-x: auto;
+}
+main .amenadiv .flex2 .c2r2 ::-webkit-scrollbar {
+  height: 12px;
+  width: 100%;
+}
+main .amenadiv .flex2 .c2r2 ::-webkit-scrollbar-track {
+  background-color: #444e80;
+  border-radius: 10px;
+}
+main .amenadiv .flex2 .c2r2 ::-webkit-scrollbar-thumb {
+  background: #5397d6;
+  border-radius: 10px;
+}
+main .amenadiv .flex2 .c2r2 .month-group {
+  cursor: pointer;
+  max-width: 400px;
+  height: 110px;
+  display: inline-block;
+}
+main .amenadiv .flex2 .c2r2 .bar {
+  background: linear-gradient(#663CE7, #983CE7);
+  width: 13px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+main .amenadiv .flex2 .c2r2 .bar:hover {
+  scale: 0.9;
+}
+main .amenadiv .flex2 .c2r2 .bar:active {
+  opacity: 60%;
+}
+main .amenadiv .flex2 .c2r2 .month-group:hover p {
+  color: black;
+}
+main .amenadiv .flex2 .c2r2 .numbers {
+  font-size: 12px;
+}
+main .amenadiv .flex2 .c2r2 .h-9 {
+  height: 30%;
+}
+main .amenadiv .flex2 .c2r2 .h-10 {
+  height: 20%;
+}
+main .amenadiv .flex2 .c2r2 .h-11 {
+  height: 33%;
+}
+main .amenadiv .flex2 .c2r2 .h-12 {
+  height: 40%;
+}
+main .amenadiv .flex2 .c2r2 .h-13 {
+  height: 35%;
+}
+main .amenadiv .flex2 .c2r2 .h-14 {
+  height: 44%;
+}
+main .amenadiv .flex2 .c2r2 .h-15 {
+  height: 36%;
+}
+main .amenadiv .flex2 .c2r2 .h-16 {
+  height: 10%;
+}
+main .amenadiv .flex2 .c2r2 .h-17 {
+  height: 50%;
+}
+main .amenadiv .flex2 .c2r2 .h-18 {
+  height: 58%;
+}
+main .amenadiv .flex2 .c2r2 .h-19 {
+  height: 43%;
+}
+main .amenadiv .flex2 .c2r2 .h-20 {
+  height: 70%;
+}
+main .amenadiv .flex2 .c2r2 .h-21 {
+  height: 60%;
+}
+main .amenadiv .flex2 .c2r2 .h-22 {
+  height: 80%;
+}
+main .amenadiv .flex2 .c2r2 .h-23 {
+  height: 99%;
+}
+main .amenadiv .flex2 .c2r2 .h-24 {
+  height: 72%;
+}
+main .amenadiv .flex2 .c2r2 .h-25 {
+  height: 50%;
+}
+main .amenadiv .flex2 .c2r2 .h-26 {
+  height: 30%;
+}
+main .amenadiv .flex2 .c2r2 .h-27 {
+  height: 43%;
+}
+main .amenadiv .flex2 .c2r2 .fff {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin-top: 30px;
+}
+main .amenadiv .flex2 .c2r2 .fff hr {
+  margin: 0 auto;
+  width: 90%;
+  border: 0.5px solid rgba(225, 225, 225, 0.659);
+}
+main .amenadiv .flex2 .c2r2 .eee {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60px 170px 1fr;
+  grid-template-rows: 20px 25px 25px;
+  padding: 5px;
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex2 .c2r2 .eee .eee1 {
+  color: var(--greyfontcolor);
+  grid-column-start: 1;
+  grid-column-end: 4;
+  justify-self: left;
+  font-size: 10px;
+  margin-left: 15px;
+}
+main .amenadiv .flex2 .c2r2 .eee .eee2 {
+  width: var(--iconsize5);
+  grid-column: 1/1;
+  grid-row: 2/-1;
+}
+main .amenadiv .flex2 .c2r2 .eee .eee3 {
+  font-size: 15px;
+}
+main .amenadiv .flex2 .c2r2 .eee .eee4 {
+  color: red;
+  grid-column: 3/3;
+  grid-row: 2/-1;
+  font-size: 16px;
+}
+main .amenadiv .flex2 .c2r2 .eee .eee5 {
+  color: var(--greyfontcolor);
+  font-size: 10px;
+}
+main .amenadiv .flex2 .c2r2 .eee .eee4 {
+  font-family: var(--fontforcash);
+}
+main .amenadiv .flex2 .c2r2 .eee .eee3,
+main .amenadiv .flex2 .c2r2 .eee .eee5 {
+  font-family: var(--fontfortexts);
+  font-weight: 600;
+}
+main .amenadiv .flex2 .c2r2 .ggg {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60px 170px 1fr;
+  grid-template-rows: 20px 25px 25px;
+  padding: 5px;
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex2 .c2r2 .ggg .ggg1 {
+  color: var(--greyfontcolor);
+  grid-column-start: 1;
+  grid-column-end: 4;
+  justify-self: left;
+  font-size: 10px;
+  margin-left: 15px;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex2 .c2r2 .ggg .ggg2 {
+  width: var(--iconsize5);
+  grid-column: 1/1;
+  grid-row: 2/-1;
+}
+main .amenadiv .flex2 .c2r2 .ggg .ggg3 {
+  font-family: var(--fontfortexts);
+  font-size: 15px;
+}
+main .amenadiv .flex2 .c2r2 .ggg .ggg4 {
+  color: blue;
+  grid-column: 3/3;
+  grid-row: 2/-1;
+  font-size: 16px;
+}
+main .amenadiv .flex2 .c2r2 .ggg .ggg3 {
+  font-family: var(--fontfortexts);
+  font-weight: 600;
+}
+main .amenadiv .flex2 .c2r2 .ggg .ggg4 {
+  font-family: var(--fontforcash);
+}
+main .amenadiv .flex2 .c2r2 .hhh {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60px 170px 1fr;
+  grid-template-rows: 25px 25px;
+  padding: 5px;
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+main .amenadiv .flex2 .c2r2 .hhh .hhh2 {
+  width: var(--iconsize5);
+  grid-column: 1;
+  grid-row: 1/-1;
+}
+main .amenadiv .flex2 .c2r2 .hhh .hhh3 {
+  grid-column: 2;
+  grid-row: 1;
+}
+main .amenadiv .flex2 .c2r2 .hhh .hhh3 {
+  font-size: 15px;
+}
+main .amenadiv .flex2 .c2r2 .hhh .hhh3 p {
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex2 .c2r2 .hhh .hhh4 {
+  color: red;
+  grid-column: 3/3;
+  grid-row: 1/-1;
+  font-size: 20px;
+}
+main .amenadiv .flex2 .c2r2 .hhh .hhh3,
+main .amenadiv .flex2 .c2r2 .hhh .hhh5 {
+  font-family: var(--fontfortexts);
+  font-weight: 600;
+}
+main .amenadiv .flex2 .c2r2 .hhh .hhh4 {
+  font-size: 16px;
+  font-family: var(--fontforcash);
+}
+main .amenadiv .flex2 .c2r2 .hhh .hhh5 {
+  color: var(--greyfontcolor);
+  font-size: 10px;
+  grid-column: 2;
+  grid-row: 2;
+}
+main .amenadiv .flex2 .c2r2 .iii {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60px 170px 1fr;
+  grid-template-rows: 25px 25px;
+  padding: 5px;
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+main .amenadiv .flex2 .c2r2 .iii .iii2 {
+  width: var(--iconsize5);
+  grid-column: 1;
+  grid-row: 1/-1;
+}
+main .amenadiv .flex2 .c2r2 .iii .iii3 {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 15px;
+}
+main .amenadiv .flex2 .c2r2 .iii .iii3 p {
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex2 .c2r2 .iii .iii4 {
+  color: blue;
+  grid-column: 3/3;
+  grid-row: 1/-1;
+  font-size: 16px;
+  font-family: var(--fontforcash);
+}
+main .amenadiv .flex2 .c2r2 .iii .iii3,
+main .amenadiv .flex2 .c2r2 .iii .iii5 {
+  font-family: var(--fontfortexts);
+  font-weight: 600;
+}
+main .amenadiv .flex2 .c2r2 .iii .iii5 {
+  color: var(--greyfontcolor);
+  font-size: 10px;
+  grid-column: 2;
+  grid-row: 2;
+}
+main .amenadiv .flex2 .c2r2 .jjj {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60px 170px 1fr;
+  grid-template-rows: 25px 25px;
+  padding: 5px;
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+main .amenadiv .flex2 .c2r2 .jjj .jjj2 {
+  width: var(--iconsize5);
+  grid-column: 1;
+  grid-row: 1/-1;
+}
+main .amenadiv .flex2 .c2r2 .jjj .jjj3 {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 15px;
+}
+main .amenadiv .flex2 .c2r2 .jjj .jjj3 p {
+  font-family: var(--fontfortexts);
+  font-weight: 600;
+}
+main .amenadiv .flex2 .c2r2 .jjj .jjj4 {
+  color: red;
+  grid-column: 3/3;
+  grid-row: 1/-1;
+  font-size: 16px;
+  font-family: var(--fontforcash);
+}
+main .amenadiv .flex2 .c2r2 .jjj .jjj5 {
+  color: var(--greyfontcolor);
+  font-size: 10px;
+  font-weight: 600;
+  grid-column: 2;
+  grid-row: 2;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex2 .c2r2 .eee3:hover,
+main .amenadiv .flex2 .c2r2 .ggg3:hover,
+main .amenadiv .flex2 .c2r2 .hhh3:hover,
+main .amenadiv .flex2 .c2r2 .iii3:hover,
+main .amenadiv .flex2 .c2r2 .jjj3:hover,
+main .amenadiv .flex2 .c2r2 .eee2:hover,
+main .amenadiv .flex2 .c2r2 .ggg2:hover,
+main .amenadiv .flex2 .c2r2 .hhh2:hover,
+main .amenadiv .flex2 .c2r2 .iii2:hover,
+main .amenadiv .flex2 .c2r2 .jjj2:hover {
+  scale: 0.9;
+  cursor: pointer;
+}
+main .amenadiv .flex3 {
+  width: 600px;
+}
+main .amenadiv .flex3 .c3r1 .divh2 {
+  font-family: var(--fontfortexts);
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-left: 40px;
+  line-height: 100px;
+  font-size: 20px;
+  text-shadow: 1px 1px 15px rgb(175, 175, 175);
+}
+main .amenadiv .flex3 .c3r2 .kkk {
+  margin-top: 30px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 20px;
+  justify-content: center;
+}
+main .amenadiv .flex3 .c3r2 .kkk .popo1,
+main .amenadiv .flex3 .c3r2 .kkk .popo2 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .amenadiv .flex3 .c3r2 .kkk .classp {
+  font-family: var(--fontfortexts);
+  font-size: 12px;
+  line-height: 40px;
+  padding: 15px 3px 3px 3px;
+  text-align: center;
+  color: var(--greyfontcolor);
+  font-weight: 600;
+  opacity: 60%;
+}
+main .amenadiv .flex3 .c3r2 .kkk .kkkk1 {
+  box-shadow: 0px 45px 50px 0px #E3E6F1;
+  border-radius: 30px;
+  padding: 20px;
+  width: 120px;
+}
+main .amenadiv .flex3 .c3r2 .kkk .kkk1 {
+  text-align: center;
+  inset: 0;
+  margin: auto;
+}
+main .amenadiv .flex3 .c3r2 .kkk .kkk11 {
+  width: var(--iconsize5);
+  text-align: center;
+}
+main .amenadiv .flex3 .c3r2 .kkkk2 {
+  box-shadow: 0px 45px 50px 0px #E3E6F1;
+  border-radius: 30px;
+  padding: 20px;
+  width: 120px;
+}
+main .amenadiv .flex3 .c3r2 .kkkk2 .kkk2 {
+  text-align: center;
+  inset: 0;
+  margin: auto;
+}
+main .amenadiv .flex3 .c3r2 .kkkk2 .kkk22 {
+  width: var(--iconsize5);
+  text-align: center;
+}
+main .amenadiv .flex3 .c3r2 .kkkk3 {
+  box-shadow: 0px 45px 50px 0px #E3E6F1;
+  border-radius: 30px;
+  padding: 20px;
+  width: 120px;
+}
+main .amenadiv .flex3 .c3r2 .kkkk3 .kkk3 {
+  text-align: center;
+  inset: 0;
+  margin: auto;
+}
+main .amenadiv .flex3 .c3r2 .kkkk3 .kkk33 {
+  width: var(--iconsize5);
+  text-align: center;
+}
+main .amenadiv .flex3 .c3r2 .kkkk4 {
+  box-shadow: 0px 45px 50px 0px #E3E6F1;
+  border-radius: 30px;
+  padding: 20px;
+  width: 120px;
+}
+main .amenadiv .flex3 .c3r2 .kkkk4 .kkk4 {
+  text-align: center;
+  inset: 0;
+  margin: auto;
+}
+main .amenadiv .flex3 .c3r2 .kkkk4 .kkk44 {
+  width: 35px;
+  text-align: center;
+}
+main .amenadiv .flex3 .c3r2 .kkkk1:hover,
+main .amenadiv .flex3 .c3r2 .kkkk2:hover,
+main .amenadiv .flex3 .c3r2 .kkkk3:hover,
+main .amenadiv .flex3 .c3r2 .kkkk4:hover {
+  scale: 0.9;
+  cursor: pointer;
+}
+main .amenadiv .flex3 .c3r2 .kkkk1:active,
+main .amenadiv .flex3 .c3r2 .kkkk2:active,
+main .amenadiv .flex3 .c3r2 .kkkk3:active,
+main .amenadiv .flex3 .c3r2 .kkkk4:active {
+  scale: 1.1;
+}
+main .amenadiv .flex3 .c3r2 .kkkk1 p:hover,
+main .amenadiv .flex3 .c3r2 .kkkk2 p:hover,
+main .amenadiv .flex3 .c3r2 .kkkk3 p:hover,
+main .amenadiv .flex3 .c3r2 .kkkk4 p:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+main .amenadiv .flex3 .c3r2 .lll {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-auto-rows: 80px;
+  gap: 50px;
+  padding: 50px;
+}
+main .amenadiv .flex3 .c3r2 .lll .pclass {
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex3 .c3r2 .lll .cashpclass {
+  font-family: var(--fontforcash);
+  font-weight: 500;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll1 {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  grid-template-rows: 30px 30px;
+  align-items: center;
+  align-self: center;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll1 p:nth-of-type(1) {
+  color: var(--greyfontcolor);
+  font-size: 14px;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll1 p:nth-of-type(2) {
+  font-size: 30px;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll1 .lll11 {
+  width: var(--iconsize6);
+  grid-column: 1;
+  grid-row: 1/-1;
+  border-radius: 10px;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll2 {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  grid-template-rows: 30px 30px;
+  align-items: center;
+  align-self: center;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll2 p:nth-of-type(1) {
+  color: var(--greyfontcolor);
+  font-size: 14px;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll2 p:nth-of-type(2) {
+  font-size: 30px;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll2 .lll22 {
+  width: var(--iconsize6);
+  grid-column: 1;
+  grid-row: 1/-1;
+  border-radius: 10px;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll3 {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  grid-template-rows: 30px 30px;
+  align-items: center;
+  align-self: center;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll3 p:nth-of-type(1) {
+  color: var(--greyfontcolor);
+  font-size: 14px;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll3 p:nth-of-type(2) {
+  font-size: 30px;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll3 .lll33 {
+  width: var(--iconsize6);
+  grid-column: 1;
+  grid-row: 1/-1;
+  border-radius: 10px;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll4 {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  grid-template-rows: 30px 30px;
+  align-items: center;
+  align-self: center;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll4 p:nth-of-type(1) {
+  color: var(--greyfontcolor);
+  font-size: 14px;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll4 p:nth-of-type(2) {
+  font-size: 30px;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll4 .lll44 {
+  width: var(--iconsize6);
+  grid-column: 1;
+  grid-row: 1/-1;
+  border-radius: 10px;
+}
+main .amenadiv .flex3 .c3r2 .lll .lll11:hover,
+main .amenadiv .flex3 .c3r2 .lll .lll22:hover,
+main .amenadiv .flex3 .c3r2 .lll .lll33:hover,
+main .amenadiv .flex3 .c3r2 .lll .lll44:hover {
+  cursor: pointer;
+  scale: 0.9;
+  opacity: 80%;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .divh22 {
+  font-family: var(--fontfortexts);
+  margin-top: 40px;
+  margin-left: 20px;
+  line-height: 40px;
+  display: inline-block;
+  letter-spacing: 2px;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .mmm {
+  font-family: var(--fontfortexts);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch1 {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch1 .history {
+  line-height: 30px;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch1 .history:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #623CE7;
+  color: #623CE7;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch1 .history:active {
+  scale: 0.95;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch1 .upcoming {
+  line-height: 30px;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch1 .upcoming:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #623CE7;
+  color: #623CE7;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch1 .upcoming:active {
+  scale: 0.95;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch1 .ankap {
+  width: 30px;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch2 {
+  font-family: var(--fontfortexts);
+  display: flex;
+  gap: 10px;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch2 .date {
+  font-family: var(--fontfortexts);
+  font-size: 10px;
+  line-height: 30px;
+  background-color: #F7F7F9;
+  border-radius: 10px;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch2 .fa-calendar-days {
+  color: grey;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 10px;
+  background-color: #F7F7F9;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch2 .icon1 {
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #F7F7F9;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch2 .icon1 .fa-gear {
+  color: grey;
+  font-size: 30px;
+  border-radius: 10px;
+  line-height: 30px;
+  background-color: #F7F7F9;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch2 .icon1 .fa-gear:hover {
+  scale: 0.9;
+  cursor: pointer;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch2 .icon2 {
+  width: 30px;
+  border-radius: 10px;
+}
+main .amenadiv .flex3 .c3r2 .mecdiv .esiminch2 .icon2:hover {
+  scale: 0.95;
+  cursor: pointer;
+}
+main .amenadiv .flex3 .c3r2 .nnn {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 40px 1fr 30px 1fr 30px 1fr;
+  grid-auto-rows: auto;
+  gap: 5px;
+}
+main .amenadiv .flex3 .c3r2 .nnn .nnn0 {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  color: var(--greyfontcolor);
+  font-size: 12.5px;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex3 .c3r2 .nnn .nnn1 {
+  width: var(--iconsize);
+  margin: auto;
+}
+main .amenadiv .flex3 .c3r2 .nnn .dotred {
+  border-radius: 10px;
+  background-color: #FEF5F4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .amenadiv .flex3 .c3r2 .nnn .dotred .dotred1 {
+  width: 8px;
+  height: 8px;
+  background-color: #EB5642;
+  border-radius: 50%;
+}
+main .amenadiv .flex3 .c3r2 .nnn .nnn4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #F7F7F9;
+}
+main .amenadiv .flex3 .c3r2 .nnn .nnn6 {
+  color: var(--greyfontcolor);
+  font-size: 12.5px;
+  margin-top: 0px;
+  grid-row: 3/3;
+  grid-column: 2/-1;
+}
+main .amenadiv .flex3 .c3r2 .nnn .nnn2,
+main .amenadiv .flex3 .c3r2 .nnn .nnn3 {
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex3 .c3r2 .nnn .nnn5 {
+  font-family: var(--fontforcash);
+}
+main .amenadiv .flex3 .c3r2 .nnn .nnn2,
+main .amenadiv .flex3 .c3r2 .nnn .nnn3,
+main .amenadiv .flex3 .c3r2 .nnn .nnn5 {
+  justify-items: center;
+  line-height: 30px;
+  font-size: 14px;
+}
+main .amenadiv .flex3 .c3r2 .nnn .nnn6 {
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex3 .c3r2 .ooo {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 40px 1fr 30px 1fr 30px 1fr;
+  grid-auto-rows: auto;
+  gap: 5px;
+}
+main .amenadiv .flex3 .c3r2 .ooo .ooo0 {
+  font-family: var(--fontfortexts);
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  color: var(--greyfontcolor);
+  font-size: 12.5px;
+}
+main .amenadiv .flex3 .c3r2 .ooo .ooo1 {
+  width: var(--iconsize);
+  margin: auto;
+}
+main .amenadiv .flex3 .c3r2 .ooo .dotblue {
+  border-radius: 10px;
+  background-color: #F0FAF5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .amenadiv .flex3 .c3r2 .ooo .dotblue .dotblue1 {
+  width: 8px;
+  height: 8px;
+  background-color: #623CE7;
+  border-radius: 50%;
+}
+main .amenadiv .flex3 .c3r2 .ooo .ooo4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #F7F7F9;
+}
+main .amenadiv .flex3 .c3r2 .ooo .ooo6 {
+  color: var(--greyfontcolor);
+  font-size: 12.5px;
+  margin-top: 0px;
+  grid-row: 3/3;
+  grid-column: 2/-1;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex3 .c3r2 .ooo .ooo2,
+main .amenadiv .flex3 .c3r2 .ooo .ooo3 {
+  font-family: var(--fontfortexts);
+  justify-items: center;
+  line-height: 30px;
+  font-size: 14px;
+}
+main .amenadiv .flex3 .c3r2 .ooo .ooo5 {
+  font-family: var(--fontforcash);
+  color: #623CE7;
+}
+main .amenadiv .flex3 .c3r2 .ppp {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 40px 1fr 30px 1fr 30px 1fr;
+  grid-auto-rows: auto;
+  gap: 5px;
+}
+main .amenadiv .flex3 .c3r2 .ppp .ppp0 {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  font-size: 0px;
+}
+main .amenadiv .flex3 .c3r2 .ppp .ppp1 {
+  width: var(--iconsize);
+  margin: auto;
+}
+main .amenadiv .flex3 .c3r2 .ppp .dotpink {
+  border-radius: 10px;
+  background-color: #FBF4FE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .amenadiv .flex3 .c3r2 .ppp .dotpink .dotpink1 {
+  width: 8px;
+  height: 8px;
+  background-color: #C148EB;
+  border-radius: 50%;
+}
+main .amenadiv .flex3 .c3r2 .ppp .ppp4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #F7F7F9;
+}
+main .amenadiv .flex3 .c3r2 .ppp .ppp6 {
+  color: var(--greyfontcolor);
+  font-size: 12.5px;
+  margin-top: 0px;
+  grid-row: 3/3;
+  grid-column: 2/-1;
+}
+main .amenadiv .flex3 .c3r2 .ppp .ppp2,
+main .amenadiv .flex3 .c3r2 .ppp .ppp3 {
+  justify-items: center;
+  line-height: 30px;
+  font-size: 14px;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex3 .c3r2 .ppp .ppp5 {
+  font-family: var(--fontforcash);
+}
+main .amenadiv .flex3 .c3r2 .ppp .ppp6 {
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex3 .c3r2 .qqq {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 40px 1fr 30px 1fr 30px 1fr;
+  grid-auto-rows: auto;
+  gap: 5px;
+}
+main .amenadiv .flex3 .c3r2 .qqq .qqq0 {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  font-size: 0px;
+}
+main .amenadiv .flex3 .c3r2 .qqq .qqq1 {
+  width: var(--iconsize);
+  margin: auto;
+}
+main .amenadiv .flex3 .c3r2 .qqq .dotgreen {
+  border-radius: 10px;
+  background-color: #F0FAF5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .amenadiv .flex3 .c3r2 .qqq .dotgreen .dotgreen1 {
+  width: 8px;
+  height: 8px;
+  background-color: #0EA7B1;
+  border-radius: 50%;
+}
+main .amenadiv .flex3 .c3r2 .qqq .qqq4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .amenadiv .flex3 .c3r2 .qqq .qqq6 {
+  color: var(--greyfontcolor);
+  font-size: 12.5px;
+  margin-top: 0px;
+  grid-row: 3/3;
+  grid-column: 2/-1;
+}
+main .amenadiv .flex3 .c3r2 .qqq .qqq2,
+main .amenadiv .flex3 .c3r2 .qqq .qqq3 {
+  font-family: var(--fontfortexts);
+  justify-items: center;
+  line-height: 30px;
+  font-size: 14px;
+}
+main .amenadiv .flex3 .c3r2 .qqq .qqq5 {
+  font-family: var(--fontforcash);
+}
+main .amenadiv .flex3 .c3r2 .qqq .qqq6 {
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex4 {
+  width: 420px;
+  position: relative;
+  justify-content: center;
+}
+main .amenadiv .flex4 .asas {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+  align-items: center;
+  padding: 10px;
+}
+main .amenadiv .flex4 .bell {
+  font-size: 30px;
+}
+main .amenadiv .flex4 .bell:hover {
+  scale: 0.9;
+  cursor: pointer;
+}
+main .amenadiv .flex4 .updates {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 10px;
+  font-family: var(--fontfortexts);
+  background-color: rgba(98, 60, 231, 0.2);
+  color: rgb(98, 60, 231);
+}
+main .amenadiv .flex4 .updates:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+main .amenadiv .flex4 .mard {
+  font-size: 30px;
+}
+main .amenadiv .flex4 .mard:hover {
+  scale: 0.9;
+  cursor: pointer;
+}
+main .amenadiv .flex4 .section1 {
+  padding: 10px;
+  position: absolute;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .amenadiv .flex4 .section1 .text {
+  font-family: var(--fontfortexts);
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+main .amenadiv .flex4 .section1 .glux1 {
+  width: 70%;
+}
+main .amenadiv .flex4 .section1 .zzz {
+  color: var(--greyfontcolor);
+  font-size: 14px;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex4 .section1 .glux2 {
+  line-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  color: #623CE7;
+  width: 30%;
+}
+main .amenadiv .flex4 .section1 .glux2 .matit:hover,
+main .amenadiv .flex4 .section1 .glux2 .lupa:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+main .amenadiv .flex4 .section1 .glux2 .matit:active,
+main .amenadiv .flex4 .section1 .glux2 .lupa:active {
+  scale: 1;
+  text-shadow: 2px 2px 5px rgb(105, 59, 122);
+}
+main .amenadiv .flex4 .section1 .users {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 10px;
+}
+main .amenadiv .flex4 .section1 .users img {
+  width: 40px;
+}
+main .amenadiv .flex4 .section1 .users img:hover {
+  scale: 1.1;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #623CE7;
+}
+main .amenadiv .flex4 .section1 .users img:active {
+  scale: 1;
+}
+main .amenadiv .flex4 .section1 .users .user2 {
+  color: #FE5260;
+  font-family: var(--fontfortexts);
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: rgba(254, 82, 96, 0.2);
+}
+main .amenadiv .flex4 .section1 .users .user2:hover {
+  border-bottom: 1px solid #623CE7;
+  cursor: pointer;
+  border-radius: 50%;
+  scale: 1.1;
+}
+main .amenadiv .flex4 .section1 .users .user2:active {
+  scale: 1;
+}
+main .amenadiv .flex4 .section1 .users .user3 {
+  border-bottom: 3px solid #623CE7;
+}
+main .amenadiv .flex4 .section1 .users .user6 {
+  font-size: 20px;
+  color: grey;
+}
+main .amenadiv .flex4 .section1 .users .user6:hover {
+  scale: 1.3;
+  cursor: pointer;
+}
+main .amenadiv .flex4 .section1 .users .user6:active {
+  scale: 1;
+}
+main .amenadiv .flex4 .section1 .idiv {
+  margin-top: 50px;
+  display: block;
+  box-shadow: 0px 17px 29px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-color: white;
+  z-index: 2;
+  border-radius: 20px;
+  padding: 10px 10px 50px 10px;
+  width: 100%;
+}
+main .amenadiv .flex4 .section1 .idiv h2 {
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex4 .section1 .idiv span {
+  color: var(--greyfontcolor);
+  opacity: 80%;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex4 .section1 .idiv .something {
+  margin-top: 40px;
+}
+main .amenadiv .flex4 .section1 .idiv .something .enmyusdiv {
+  display: inline-block;
+  vertical-align: top;
+  width: 35%;
+  text-align: center;
+}
+main .amenadiv .flex4 .section1 .idiv .something .enmyusdiv .i1,
+main .amenadiv .flex4 .section1 .idiv .something .enmyusdiv .i2,
+main .amenadiv .flex4 .section1 .idiv .something .enmyusdiv .i3 {
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 10px;
+  padding: 2px;
+}
+main .amenadiv .flex4 .section1 .idiv .something .enmyusdiv .i1:hover,
+main .amenadiv .flex4 .section1 .idiv .something .enmyusdiv .i2:hover,
+main .amenadiv .flex4 .section1 .idiv .something .enmyusdiv .i3:hover {
+  scale: 1.2;
+}
+main .amenadiv .flex4 .section1 .idiv .something .enmyusdiv .i2 {
+  margin-left: -13px;
+}
+main .amenadiv .flex4 .section1 .idiv .something .enmyusdiv .i3 {
+  margin-left: -14px;
+}
+main .amenadiv .flex4 .section1 .idiv .something .enmyusdiv img {
+  width: 30px;
+}
+main .amenadiv .flex4 .section1 .idiv .something .gumarac5 {
+  width: 15%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+main .amenadiv .flex4 .section1 .idiv .something .gumarac5 .divp {
+  text-align: center;
+  color: #623CE7;
+  line-height: 28px;
+  font-size: 16px;
+  border-radius: 50%;
+  border: 1px dashed #A9B8CD;
+  width: 30px;
+  height: 30px;
+}
+main .amenadiv .flex4 .section1 .idiv .something .gumarac5 .divp:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+main .amenadiv .flex4 .section1 .idiv .something .gumarac5 .divp p {
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex4 .section1 .idiv .something .chat {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+}
+main .amenadiv .flex4 .section1 .idiv .something .chat .chat1 {
+  text-align: right;
+}
+main .amenadiv .flex4 .section1 .idiv .something .chat .chat1 img {
+  width: 30px;
+}
+main .amenadiv .flex4 .section1 .idiv .something .chat .chat1 img:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+main .amenadiv .flex4 .section1 .idiv .something .chat .chat1 img:active {
+  border: 1px dashed grey;
+}
+main .amenadiv .flex4 .section1 .idiv .something2 {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+main .amenadiv .flex4 .section1 .idiv .something2 .nkar {
+  width: 30%;
+}
+main .amenadiv .flex4 .section1 .idiv .something2 .aa {
+  width: 100px;
+}
+main .amenadiv .flex4 .section1 .idiv .something2 .dakotamilk {
+  width: 50%;
+  line-height: 20px;
+}
+main .amenadiv .flex4 .section1 .idiv .something2 .dakotamilk span:first-of-type {
+  font-family: var(--fontfortexts);
+  font-weight: 700;
+  font-weight: 600;
+  color: black;
+}
+main .amenadiv .flex4 .section1 .idiv .something2 .dakotamilk span:nth-of-type(2) {
+  font-family: var(--fontforcash);
+  opacity: 60%;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 14px;
+}
+main .amenadiv .flex4 .section1 .idiv .something2 .arrow {
+  width: 20%;
+  font-size: 18px;
+  text-align: right;
+  color: var(--greyfontcolor);
+}
+main .amenadiv .flex4 .section1 .idiv .something2 .arrow .fa-angle-right:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+main .amenadiv .flex4 .section1 .idiv .something2 .arrow .fa-angle-right:active {
+  scale: 1;
+}
+main .amenadiv .flex4 .section1 .idivshadow {
+  background: #FFFFFF;
+  position: absolute;
+  margin: 0 auto;
+  z-index: -1;
+  top: 320px;
+  left: 35px;
+  width: 82%;
+  height: 200px;
+  filter: drop-shadow(0px 17px 29px rgba(0, 0, 0, 0.07));
+  border-radius: 15px;
+}
+main .amenadiv .flex4 .section1 .sendmoney {
+  position: relative;
+  width: 100%;
+  margin-top: 80px;
+}
+main .amenadiv .flex4 .section1 .sendmoney .sendmoney1 h2 {
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex4 .section1 .sendmoney .sendmoney11 {
+  display: flex;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  height: 80px;
+  margin-top: 25px;
+  border-radius: 10px;
+  border: 2px solid #F3F2F2;
+}
+main .amenadiv .flex4 .section1 .sendmoney .sendmoney11 .sendmoney2 {
+  height: 32px;
+  text-align: center;
+  width: 70px;
+}
+main .amenadiv .flex4 .section1 .sendmoney .sendmoney11 .sendmoney2 .maestrologo {
+  position: absolute;
+}
+main .amenadiv .flex4 .section1 .sendmoney .sendmoney11 .sendmoney2 .maestrologo .divred1 {
+  background-color: #EA1D25;
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+main .amenadiv .flex4 .section1 .sendmoney .sendmoney11 .sendmoney2 .maestrologo .divorange1 {
+  background-color: #F69E1E;
+  position: absolute;
+  display: inline-block;
+  left: 20px;
+  opacity: 0.9;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+main .amenadiv .flex4 .section1 .sendmoney .sendmoney3 {
+  display: inline-block;
+  width: 25%;
+}
+main .amenadiv .flex4 .section1 .sendmoney .sendmoney3 p {
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex4 .section1 .sendmoney .sendmoney4 {
+  font-weight: 600;
+  width: 30%;
+  text-align: center;
+  text-align: right;
+  font-family: var(--fontforcash);
+}
+main .amenadiv .flex4 .section1 .sendmoney .sendmoney4 span {
+  color: var(--greyfontcolor);
+}
+main .amenadiv .flex4 .section1 .sendmoney .sendmoney5 {
+  color: var(--greyfontcolor);
+}
+main .amenadiv .flex4 .section1 .sendmoney .sendmoney5 .fa-angle-down:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+main .amenadiv .flex4 .section1 .sendmoney .sendmoney5 .fa-angle-down:active {
+  scale: 1;
+}
+main .amenadiv .flex4 .section1 .sendmoney .cash {
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+  border: 2px solid #F3F2F2;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0227778), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0182222), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0117778), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00722222);
+}
+main .amenadiv .flex4 .section1 .sendmoney .cash .cash1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+main .amenadiv .flex4 .section1 .sendmoney .cash .cash1 .cash11 {
+  width: 40px;
+  text-align: center;
+}
+main .amenadiv .flex4 .section1 .sendmoney .cash .cash1 .cash11 .cash111 {
+  width: 30px;
+}
+main .amenadiv .flex4 .section1 .sendmoney .cash .cash1 .cash22 {
+  font-family: var(--fontfortexts);
+  color: var(--greyfontcolor);
+}
+main .amenadiv .flex4 .section1 .sendmoney .cash .poxer {
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+main .amenadiv .flex4 .section1 .sendmoney .cash .poxer .poxer1 {
+  display: inline-block;
+  -webkit-animation: borderanimation ease infinite 2500ms;
+          animation: borderanimation ease infinite 2500ms;
+  font-family: var(--fontforcash);
+}
+@-webkit-keyframes borderanimation {
+  0% {
+    border-right: none;
+  }
+  25% {
+    border-right: 1px solid black;
+  }
+  50% {
+    border-right: none;
+  }
+  75% {
+    border-right: 1px solid black;
+  }
+  100% {
+    border-right: none;
+  }
+}
+@keyframes borderanimation {
+  0% {
+    border-right: none;
+  }
+  25% {
+    border-right: 1px solid black;
+  }
+  50% {
+    border-right: none;
+  }
+  75% {
+    border-right: 1px solid black;
+  }
+  100% {
+    border-right: none;
+  }
+}
+main .amenadiv .flex4 .section1 .sendmoney .cash .poxer .poxer1 span {
+  color: var(--greyfontcolor);
+}
+main .amenadiv .flex4 .section1 .sendmoney .cash .poxer .poxer2 {
+  position: initial;
+  right: 0;
+  background-color: transparent;
+}
+main .amenadiv .flex4 .section1 .sendmoney .cash .poxer .poxer2 .united {
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+  z-index: 0;
+}
+main .amenadiv .flex4 .section1 .sendmoney .cash .poxer .poxer2 .united .united1 {
+  width: 30px;
+}
+main .amenadiv .flex4 .section1 .sendmoney .cash .poxer .poxer2 .spain {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  z-index: 1;
+}
+main .amenadiv .flex4 .section1 .sendmoney .cash .poxer .poxer2 .spain .spain1 {
+  width: 30px;
+}
+main .amenadiv .flex4 .section1 .sendmoney .transfer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  background-color: white;
+}
+main .amenadiv .flex4 .section1 .sendmoney .transfer .flextransfer1 {
+  width: 50%;
+}
+main .amenadiv .flex4 .section1 .sendmoney .transfer .flextransfer1 .transfer1 .transfer11 img {
+  width: 30px;
+}
+main .amenadiv .flex4 .section1 .sendmoney .transfer .flextransfer1 .transfer1 .transfer12 {
+  line-height: 34px;
+  font-family: var(--fontfortexts);
+}
+main .amenadiv .flex4 .section1 .sendmoney .transfer .flextransfer1 .transfer1 .transfer11,
+main .amenadiv .flex4 .section1 .sendmoney .transfer .flextransfer1 .transfer1 .transfer12 {
+  display: inline-block;
+  vertical-align: top;
+}
+main .amenadiv .flex4 .section1 .sendmoney .transfer .flextransfer2 {
+  width: 50%;
+  text-align: right;
+}
+main .amenadiv .flex4 .section1 .sendmoney .transfer .flextransfer2 .transfer13plus {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background-color: #E0F0EF;
+  line-height: 34px;
+  text-align: center;
+  border-radius: 50%;
+}
+main .amenadiv .flex4 .section1 .sendmoney .transfer .flextransfer2 .transfer13plus:hover {
+  scale: 1.2;
+  cursor: pointer;
+  border: 1px solid #E0F0EF;
+}
+main .amenadiv .flex4 .section1 .sendmoney .transfer .flextransfer2 .transfer13plus:active {
+  scale: 1;
+}
+main .amenadiv .flex4 .section1 .sendmoney .transfer .flextransfer2 .transfer13plus .fa-plus {
+  opacity: 60%;
+}
+main .amenadiv .flex4 .section1 .sendmoney .button {
+  margin-top: 20px;
+}
+main .amenadiv .flex4 .section1 .sendmoney .button .button1 button {
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  color: white;
+  background-color: #623CE7;
+  border: none;
+  font-size: 15px;
+}
+main .amenadiv .flex4 .section1 .sendmoney .button .button1 button:hover {
+  scale: 0.95;
+  cursor: pointer;
+  border: 1px solid #E0F0EF;
+}
+main .amenadiv .flex4 .section1 .sendmoney .button .button1 button:active {
+  scale: 1;
+  color: rgb(161, 161, 161);
+}/*# sourceMappingURL=style.css.map */
