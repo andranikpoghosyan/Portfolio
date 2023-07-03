@@ -1,0 +1,73 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+  background: transparent;
+  transition: background 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+  margin: 0 auto;
+}
+.nav__logo {
+  position: fixed;
+  width: 150px;
+  object-fit: contain;
+}
+.nav__black {
+  background: #111;
+  transition-timing-function: ease-in;
+  transition: background 0.5s;
+}
+
+.loginSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+
+  select {
+    width: 130px;
+    background-color: rgba(0, 0, 0, 0.241);
+    color: white;
+    border-radius: 8px;
+    padding: 6px 20px;
+    font-size: 16px;
+
+    option {
+      background-color: white;
+    }
+  }
+
+  input {
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    position: relative;
+    vertical-align: text-top;
+    width: auto;
+    font-size: 0.875rem;
+    font-weight: 500;
+    min-height: 2rem;
+    padding: 0.25rem 1rem;
+    background: rgb(229, 9, 20);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+
+    &:hover {
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      transition: 0.3s;
+    }
+  }
+}
+
+.imageClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
