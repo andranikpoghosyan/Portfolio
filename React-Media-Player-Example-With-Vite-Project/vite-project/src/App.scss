@@ -1,0 +1,13 @@
+.App {
+  padding: 20px;
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .App {
+    text-align: center;
+  }
+}

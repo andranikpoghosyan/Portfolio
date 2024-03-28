@@ -1,0 +1,67 @@
+.SongList {
+  width: 100%;
+  h1 {
+    margin: 0px 0px 10px 20px;
+    letter-spacing: 3px;
+  }
+
+  table {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #242222;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+    thead {
+      tr {
+        th {
+          text-align: left;
+          border-bottom: 1px solid #fff;
+          font-size: 1.5rem;
+          padding: 8px 6px;
+          letter-spacing: 2px;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        td:first-child {
+          text-align: center;
+        }
+
+        td {
+          font-size: 1.1rem;
+          padding: 0px 8px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .SongList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    table {
+      thead {
+        tr {
+          th {
+            font-size: 1rem;
+          }
+        }
+      }
+
+      tbody {
+        tr {
+          td {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}
